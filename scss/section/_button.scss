@@ -1,0 +1,18 @@
+button {
+    background-color: #3096FE;
+    color: #ffffff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+    justify-content: center;
+}
+form button:hover {
+    opacity: 1;
+}
+.send-button{
+    text-align: center;
+    margin: 50px auto;
+}

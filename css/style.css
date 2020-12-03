@@ -1,0 +1,93 @@
+.registerform {
+  border: 2px solid #6291e2;
+  padding: 20px 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #363636;
+}
+
+label {
+  padding-left: 15px;
+  color: #949494;
+  display: block;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+form input {
+  padding: 8px;
+  background-color: #e8f0fe;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+form input:focus:focus {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  border: 0px;
+  outline: none;
+}
+
+.form-check input {
+  background-color: #6da1fc;
+}
+
+button {
+  background-color: #3096FE;
+  color: #ffffff;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+  justify-content: center;
+}
+
+form button:hover {
+  opacity: 1;
+}
+
+.send-button {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.width input {
+  width: 100%;
+}
+
+.losenord input {
+  width: 50%;
+}
+
+.radio {
+  padding-bottom: 20px;
+}
+
+.radio label {
+  padding-left: 0;
+}
+
+.check-box {
+  padding: 10px;
+}
+
+.check-box label {
+  padding-left: 0;
+}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: #3096FE;
+}
